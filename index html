@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Search</title>
+</head>
+<body>
+  <h1>GitHub Search</h1>
+  <form id="github-form">
+    <input type="text" id="search" placeholder="Enter a username or repository" />
+    <button type="submit">Search</button>
+    <button type="button" id="toggle-search">Search by: Repositories</button>
+  </form>
+  <h2>Users</h2>
+  <ul id="user-list"></ul>
+  <h2>Repositories</h2>
+  <ul id="repos-list"></ul>
+  <script src="index.js"></script>
+</body>
+</html>
